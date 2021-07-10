@@ -1,0 +1,115 @@
+.profile1 td{
+
+	padding: 7px;
+	border-bottom: 3px double black;
+	border-right: 1px double;
+}
+
+.profile1 td img:hover{
+
+	width: 30px;
+	height: 35px;
+}
+
+.profile1 tr:hover{
+
+	background-color:  	#BEBEBE;
+}
+
+.bearbeiten td{
+	padding: 7px;
+	
+}
+
+.bearbeiten td input{
+	padding: 7px;
+	width: 90%;
+	
+}
+
+.bearbeiten td button{
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bolder;
+	width: 98%;
+	padding: 10px;
+	
+}
+
+.bearbeiten td button:hover{
+
+	background-color:  	#BEBEBE;
+	padding: 11px;
+}
+
+
+td input.ink{
+
+	width: 11%;
+}
+
+td input.num{
+
+	width: 73%;
+}
+
+.table .tri td{
+	padding: 5px;
+	background-color: #202020;
+	color:white;
+
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+.table td{
+	padding: 6px;
+}
+
+.table td a{
+
+	text-decoration: none;
+	color:black;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.table td a:hover{
+	font-size: 20px;
+	transition: 0.1s;
+}
+
+.table tr.class:hover{
+	background-color: #BEBEBE;
+	transition: 0.5s;
+}
+
+.table .betra td{
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.table .dater td{
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.table .dater input{
+	padding: 5px;
+}
+
+.table .butt button{
+
+	padding: 10px;
+}
+
+.table .butt button:hover{
+
+	background-color: #BEBEBE;
+	padding: 11px;
+}
+
+.table tr.butt:hover{
+	background-color: none;
+}
+

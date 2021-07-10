@@ -1,0 +1,76 @@
+div.menuschuh{
+	background-color: #e3e3e3;
+	border-bottom:2px solid black;
+	
+}
+
+div.menuschuh div{
+	display: inline-block;
+	margin: 0;
+	padding: 0px 3px;
+	position: relative;
+	left: 14%;
+	width: 970px;
+	
+
+	
+}
+
+div.menuschuh ul{
+	list-style-type: none;
+	width: 80%;
+	
+	
+}
+
+div.menuschuh ul li{
+	display: inline-block;
+	margin: 0px 40px;
+	padding: 5px;
+	width: 100px;
+}
+
+
+div.menuschuh a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+
+
+}
+
+div.menuschuh li:hover{
+	padding: 0px -10px;
+	transition: .3s;
+}
+
+
+@media screen and (max-width: 1515px) {
+
+	div.menuschuh ul li{
+
+		display: block;
+		position: relative;
+		left: -30%;
+		
+	}
+
+	div.menuschuh div {
+		
+		width: 20%;
+		position: relative;
+		left: 0%;
+	}
+
+
+
+	
+ 	
+
+
+ 
+  
+}
+
+
+

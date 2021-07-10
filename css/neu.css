@@ -1,0 +1,51 @@
+div.neu{
+	background-color:rgba(212, 212, 212, 0.79);
+	margin: 0;
+	padding: 0px 0px;
+	position: relative;
+	left: 2%;
+	width: 93%;
+	height: 276.5px;
+	
+}
+
+.neu div{
+	display: inline-block;
+}
+
+.neu .imageneu{
+	background-color:#bfbfbf;
+	float: right;
+	padding: 30px;
+	border-top-left-radius: 100px;
+	height: 215px;
+	border-left: 10px transparent;
+
+}
+
+.neutext .text{
+	padding: 90px 50px;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1515px) {
+
+
+	div.neu{
+	height: 260px;
+
+	
+	
+}
+
+	.neu .imageneu{
+	display:none;
+	
+}
+
+.neutext .text{
+	text-align: center;
+}
+  
+}
+

@@ -1,0 +1,59 @@
+div.sale{
+	background-color:#d53030;
+	margin: 0;
+	padding: 0px 30px;
+	position: relative;
+	left: 2%;
+	width: 93%;
+	height: 276.5px;
+	
+}
+
+.sale div{
+	display: inline-block;
+}
+
+.sale .imagesale{
+	background-color: white;
+	float: right;
+	padding: 30px;
+	width: 210px;
+	border-radius: 50%;
+}
+
+.saletext .text{
+	color:white;
+	padding: 90px 20px;
+	font-size: 20px;
+}
+
+.imagesale .text2{
+	color:#d53030;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+@media screen and (max-width: 1515px) {
+
+	div.sale{
+	height: 300px;
+	width: 85%;
+
+	
+}
+
+
+
+
+
+	.sale .imagesale{
+	display:none;
+	
+}
+.saletext .text{
+	text-align: center;
+}
+  
+}

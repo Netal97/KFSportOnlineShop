@@ -1,0 +1,136 @@
+section,
+section::before,
+section::after{
+	margin: 0;
+	padding: 0;
+	box-sizing:inherit;
+
+}
+
+
+
+section{
+	font-size:8px;
+	box-sizing: border-box;
+	width:100%;
+	height: 95vh;
+	
+	display:flex;
+	align-items:center;
+	justify-content: center;
+
+
+}
+
+
+.container{
+	width:100%;
+	max-width: 50rem;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+
+}
+
+.accordion-item{
+	background-color: #d1d1d1;
+	border-radius: .4rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	
+}
+
+
+
+.accordion-link{
+	font-size: 1.3rem;
+	text-decoration:none;
+	color: #202020;
+	background-color: #d1d1d1;
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 0;
+
+
+
+}
+
+.accordion-link ion-icon{
+	color: #202020;
+	padding:  .5rem;
+
+}
+
+.accordion-link .rmv{
+	display: none;
+}
+
+.answer{
+	max-height: 0;
+	overflow: hidden;
+	position:relative;
+	background-color:#d1d1d1;
+	transition: max-height 650ms; 
+}
+
+.answer::before{
+	content:"";
+	position:absolute;
+	width:.4rem;
+	height: 90%;
+	background-color: #d1d1d1;
+	top:50%;
+	left:0;
+	transform: translateY(-50%);
+}
+
+.answer p{
+	font-size: 1.1rem;
+	color:#202020;
+	padding: 2rem;
+
+}
+
+
+.accordion-item:target .answer{
+	max-height: 20rem;
+
+}
+
+.accordion-item:target .accordion-link .add{
+
+	display:none;
+
+}
+
+.accordion-item:target .accordion-link .rmv{
+
+	display:block;
+
+}
+
+@media screen and (max-width: 1525px) {
+	section{
+		font-size:8px;
+		box-sizing: border-box;
+		width:100%;
+		height: 130vh;
+		
+		display:flex;
+		align-items:center;
+		justify-content: center;
+
+
+	}
+
+
+	.container{
+		width:100%;
+		max-width: 50rem;
+		margin: 0 auto;
+		padding: 0 1.5rem;
+
+	}
+
+}

@@ -1,0 +1,75 @@
+
+
+.horizon a{
+
+	text-decoration: none;
+	text-align: center;
+	color: #101010;
+	font-size: 18px;
+	background-color: red;
+}
+
+.horizon li{
+
+	list-style-type: none;
+	padding: 1px 10px;
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	left: 35%;
+	margin: 0px 60px;
+	width: 80px;
+	
+
+
+}
+
+.horizon ul{
+
+	
+	padding: 0px 0px;
+	margin: 0px 0px;
+	box-shadow: 3px 4px #c9c9c9;
+}
+
+.horizon li.red a:hover{
+
+		color:red;
+
+}
+
+.horizon li.cyan a:hover{
+
+		color:#b67a0c;
+
+}
+
+@media screen and (max-width: 1515px) {
+ 	
+.horizon {
+
+	height: 400px;
+
+}
+
+
+
+.horizon ul li{
+
+	
+	margin: 10px 10px;
+	padding: 0px 0px;
+}
+
+
+ 	
+
+ 		
+
+
+ 		
+ 
+
+ 
+  
+}
